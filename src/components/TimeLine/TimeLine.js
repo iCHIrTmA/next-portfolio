@@ -67,8 +67,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I like meaningful work with a slight complexity to keep me sharp and
-        engaged.
+        Knowledge sharing. Working alongside brilliant individuals. This kept me sharp and
+        engaged throughout my career.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

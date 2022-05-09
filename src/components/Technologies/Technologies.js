@@ -20,7 +20,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a variety of tecnologies in the web development world.
+      I've worked with a variety of technologies in the web development world.
       From back-end to design.
     </SectionText>
     <List>
@@ -47,11 +47,11 @@ const Technologies = () => (
       <ListItem>
         <DiZend size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Front-end Testing</ListTitle>
           <ListParagraph>
-            Experience with
+            Wrote integration tests
             <br />
-            tools like Figma
+            according to software specifications using Cypress
           </ListParagraph>
         </ListContainer>
       </ListItem>
