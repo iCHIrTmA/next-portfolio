@@ -22,11 +22,16 @@ row-gap: 3rem;
 }
 
 `
-export const BlogCard = styled.div`
+export const BlogCard = styled.a`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  &:hover {
+    background-color: #212d45;
+    transform: scale(1.1);
+    cursor: pointer;
+  };
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -96,11 +101,11 @@ padding:1rem 1.5rem;
 background: black;
 border-radius: 15px;
 transition: 0.5s;
-&:hover{
-  background: #801414;
-
-}
-`;
+&:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+};
+`
 
 export const TagList = styled.ul`
 display: flex;
