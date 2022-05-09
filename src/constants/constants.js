@@ -1,36 +1,36 @@
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Twitter Clone",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      "A simple CRUD app that publishes your tweets and tweets of people you follow. This app is developed using a test-driven development approeach and can be cloned in any local machine with Docker",
     image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["TDD", "Laravel", "Docker"],
+    source: "https://github.com/iCHIrTmA/tdd-twitter-clone-to-deploy",
+    visit: "https://thawing-tundra-02647.herokuapp.com",
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Online Store",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "A laravel e-commerce application utilizing adjacency lists, stripe payment, livewire and s3 bucket for file storage",
     image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["Stripe", "AWS S3", "Laravel", "Livewire"],
+    source: "https://github.com/iCHIrTmA/laravel-ecommerce",
+    visit: "https://enigmatic-crag-03072.herokuapp.com",
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "Idea Sharing App",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      "A CRUD app that lets users share their ideas and vote for other ideas from other users. This app is built uses Tailiwind CSS for front-end and Laravel and Livewire for back-end",
     image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["Tailwind", "Laravel", "Livewire"],
+    source: "https://github.com/iCHIrTmA/TIL-Voting-App",
+    visit: "https://hidden-eyrie-71570.herokuapp.com/",
     id: 2,
   },
   {
-    title: "Unichat",
+    title: "Video Game Library (Under Construction)",
     description:
       "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
     image: "/images/4.jpg",
@@ -43,7 +43,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2017, text: "Graduated with a degree in Economics" },
-  { year: 2018, text: "Worked as a remote content writer" },
+  { year: 2018, text: "Worked as a remote technical writer" },
   { year: 2019, text: "still writing...." },
   { year: 2020, text: "Software Engineer in Nabepero Phils" },
   { year: 2021, text: "still coding...." },

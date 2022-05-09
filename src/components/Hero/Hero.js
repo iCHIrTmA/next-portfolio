@@ -12,15 +12,16 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hello there <br />
-        Happy to see you here
+        Hello, Janroe Cordero here<br />
+        <br />
+        Let's build something beautiful
       </SectionTitle>
       <SectionText>
-        This portfolio website showcases my laravel projects that were built
-        using the TALL stack.
+        This portfolio website showcases my SaaS projects that were built
+        using the Tailwind, Alpine.js, Laravel, Livewire (TALL) stack.
       </SectionText>
-      <Button onClick={() => (window.location = "https://tallstack.dev/")}>
-        Learn More
+      <Button onClick={() => (window.location = "#projects")}>
+        See Projects
       </Button>
     </LeftSection>
   </Section>
