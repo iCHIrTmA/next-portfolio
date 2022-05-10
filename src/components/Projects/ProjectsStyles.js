@@ -19,9 +19,9 @@ row-gap: 3rem;
   flex-direction: column;
   padding: 2rem;
   padding-bottom: 0;
-}
-
+};
 `
+
 export const BlogCard = styled.a`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
@@ -34,15 +34,17 @@ export const BlogCard = styled.a`
   };
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
-  }
-`;
+  };
+`
+
 export const TitleContent = styled.div`
-  margin: 20px;
+  margin: 25px 0px 0px 0px;
   text-align: center;
   z-index: 20;
   width: 100%;
-
-`;
+  font-weight: bold;
+  color: white;
+`
 
 
 export const HeaderThree = styled.h3`
@@ -51,7 +53,8 @@ export const HeaderThree = styled.h3`
   color: #de32e1;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
-`;
+`
+
 
 export const Hr = styled.hr`
   width: 50px;
@@ -59,7 +62,8 @@ export const Hr = styled.hr`
   margin: 20px auto;
   border: 0;
   background: #d0bb57;
-`;
+`
+
 
 export const Intro = styled.div`
   width: 170px;
@@ -69,7 +73,7 @@ export const Intro = styled.div`
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
-`;
+`
 
 
 export const CardInfo = styled.p`
@@ -81,9 +85,8 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
-  
-}
-`;
+  };
+`
 
 
 export const UtilityList = styled.ul`
@@ -92,7 +95,7 @@ export const UtilityList = styled.ul`
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
-`;
+`
 
 export const ExternalLinks = styled.a`
 color: #de32e1;
@@ -102,8 +105,10 @@ background: black;
 border-radius: 15px;
 transition: 0.5s;
 &:hover {
+  background-color: #dadfe8;
   transform: scale(1.3);
   cursor: pointer;
+  color: black;
 };
 `
 

@@ -10,7 +10,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Online Store",
+    title: "Online Shoe Store",
     description:
       "A laravel e-commerce application utilizing adjacency lists, stripe payment, livewire and s3 bucket for file storage",
     image: "/images/2.png",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Idea Sharing App",
     description:
-      "A CRUD app that lets users share their ideas and vote for other ideas from other users. This app is built uses Tailiwind CSS for front-end and Laravel and Livewire for back-end",
+      "A CRUD app that lets users share their ideas and vote for other ideas from other users. This app uses Tailwind CSS for front-end, Laravel and Livewire for back-end",
     image: "/images/3.jpg",
     tags: ["Tailwind", "Laravel", "Livewire"],
     source: "https://github.com/iCHIrTmA/TIL-Voting-App",
