@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
@@ -20,6 +21,8 @@ export const Container = styled.div`
 
 export const Span = styled.span`
   font-size: 2rem;
+  margin-left: 1rem;
+  color: #de32e1;
 `;
 
 export const Div1 = styled.div`
@@ -27,6 +30,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+  justify-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }

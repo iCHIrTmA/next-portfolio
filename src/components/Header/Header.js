@@ -16,7 +16,7 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
+      <Link href="https://www.canva.com/design/DAFALP1mgmU/yCrPgWRebpZq4YT-gz0V-Q/edit?utm_content=DAFALP1mgmU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
         <a
           style={{
             display: "flex",
@@ -26,7 +26,7 @@ const Header = () => (
           }}
         >
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>Resume</Span>
         </a>
       </Link>
     </Div1>
