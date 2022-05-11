@@ -26,23 +26,20 @@ const Footer = () => {
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:jcdelloro@up.edu.ph">jcdelloro@up.edu.ph</LinkItem>
         </LinkColumn>
+        <SocialContainer>
+          <SocialIconsContainer>
+            <SocialIcons href="https://github.com/iCHIrTmA">
+              <AiFillGithub size="3rem" />
+            </SocialIcons>
+            <SocialIcons href="https://ph.linkedin.com/in/janroe-cordero-a3aa4b115">
+              <AiFillLinkedin size="3rem" />
+            </SocialIcons>
+            <SocialIcons href="https://instagram.com">
+              <AiFillInstagram size="3rem" />
+            </SocialIcons>
+          </SocialIconsContainer>
+        </SocialContainer>
       </LinkList>
-      <SocialContainer>
-        <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
-        </CompanyContainer>
-        <SocialIconsContainer>
-          <SocialIcons href="https://github.com/iCHIrTmA">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://ph.linkedin.com/in/janroe-cordero-a3aa4b115">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://instagram.com">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-        </SocialIconsContainer>
-      </SocialContainer>
     </FooterWrapper>
   );
 };
