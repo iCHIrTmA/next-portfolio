@@ -2,8 +2,8 @@ export const projects = [
   {
     title: "Twitter Clone",
     description:
-      "A simple CRUD app that publishes your tweets and tweets of people you follow. This app is developed using a test-driven development approeach and can be cloned in any local machine with Docker",
-    image: "/images/1.png",
+      "An app that publishes your tweets and shows tweets of people you follow. Test-driven development and Dockerized approach",
+    image: "https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/twitter-clone.gif",
     tags: ["TDD", "Laravel", "Docker"],
     source: "https://github.com/iCHIrTmA/tdd-twitter-clone-to-deploy",
     visit: "https://thawing-tundra-02647.herokuapp.com",
@@ -13,7 +13,7 @@ export const projects = [
     title: "Online Shoe Store",
     description:
       "A laravel e-commerce application utilizing adjacency lists, stripe payment, livewire and s3 bucket for file storage",
-    image: "/images/2.png",
+    image: "https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/online-shoe-store.gif",
     tags: ["Stripe", "AWS S3", "Laravel", "Livewire"],
     source: "https://github.com/iCHIrTmA/laravel-ecommerce",
     visit: "https://enigmatic-crag-03072.herokuapp.com",
@@ -23,7 +23,7 @@ export const projects = [
     title: "Idea Sharing App",
     description:
       "A CRUD app that lets users share their ideas and vote for other ideas from other users. This app uses Tailwind CSS for front-end, Laravel and Livewire for back-end",
-    image: "/images/3.jpg",
+    image: "https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/idea-sharing.gif",
     tags: ["Tailwind", "Laravel", "Livewire"],
     source: "https://github.com/iCHIrTmA/TIL-Voting-App",
     visit: "https://hidden-eyrie-71570.herokuapp.com/",
