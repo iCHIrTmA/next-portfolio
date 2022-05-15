@@ -13,7 +13,6 @@ import {
 } from "./TimeLineStyles";
 import {
   Section,
-  SectionDivider,
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
@@ -137,7 +136,6 @@ const Timeline = () => {
           </CarouselButton>;
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

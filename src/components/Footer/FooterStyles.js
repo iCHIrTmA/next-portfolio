@@ -49,14 +49,14 @@ export const SocialIconsContainer = styled.div`
 	justify-content: space-between;
 
 	@media ${props => props.theme.breakpoints.md}{
-	display: flex;
-	justify-content: space-between;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	@media ${props => props.theme.breakpoints.sm}{
-	display: flex;
+		display: flex;
 		width: 100%;
-	flex-direction: column;
+		justify-content: right;
 	}
 `
 
@@ -132,6 +132,8 @@ export const LinkList = styled.ul`
 		width: 100%;
 		padding: 32px 4px 16px;
 		gap: 5px;
+		display: flex;
+    	flex-direction: column;
 	}
 `
 
