@@ -30,13 +30,13 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Video Game Library (Under Construction)",
+    title: "Video Game Library",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "This app fetches video game information using the IGDB API. It lists popular games and those recently reviewed. Users can search for games and see more info",
+    image: "https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/video-game-lib.gif",
+    tags: ["API", "Laravel", "Livewire", "Docker"],
+    source: "https://github.com/iCHIrTmA/video-game-library",
+    visit: "https://video-game-lib.herokuapp.com/",
     id: 3,
   },
 ];
