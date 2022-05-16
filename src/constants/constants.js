@@ -6,7 +6,7 @@ export const projects = [
     image: "https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/twitter-clone.gif",
     tags: ["TDD", "Laravel", "Docker"],
     source: "https://github.com/iCHIrTmA/tdd-twitter-clone-to-deploy",
-    visit: "https://thawing-tundra-02647.herokuapp.com",
+    visit: "https://tdd-twitter-clone.herokuapp.com",
     id: 0,
   },
   {
