@@ -16,7 +16,7 @@ export const projects = [
     image: "https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/online-shoe-store.gif",
     tags: ["Stripe", "AWS S3", "Laravel", "Livewire"],
     source: "https://github.com/iCHIrTmA/laravel-ecommerce",
-    visit: "https://enigmatic-crag-03072.herokuapp.com",
+    visit: "https://online-shoe-store.herokuapp.com",
     id: 1,
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
     image: "https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/idea-sharing.gif",
     tags: ["Tailwind", "Laravel", "Livewire"],
     source: "https://github.com/iCHIrTmA/TIL-Voting-App",
-    visit: "https://hidden-eyrie-71570.herokuapp.com/",
+    visit: "https://idea-sharing-app.herokuapp.com",
     id: 2,
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     image: "https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/video-game-lib.gif",
     tags: ["API", "Laravel", "Livewire", "Docker"],
     source: "https://github.com/iCHIrTmA/video-game-library",
-    visit: "https://video-game-lib.herokuapp.com/",
+    visit: "https://video-game-lib.herokuapp.com",
     id: 3,
   },
 ];
