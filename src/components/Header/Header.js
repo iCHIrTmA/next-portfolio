@@ -16,7 +16,7 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/final_cordero_resume.pdf">
+      <Link href="https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/cordero-software-engineer.pdf">
         <a
           style={{
             display: "flex",
