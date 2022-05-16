@@ -16,7 +16,7 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="https://www.canva.com/design/DAFALP1mgmU/yCrPgWRebpZq4YT-gz0V-Q/edit?utm_content=DAFALP1mgmU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+      <Link href="https://s3.ap-northeast-1.amazonaws.com/jonrue.dev.resume/final_cordero_resume.pdf">
         <a
           style={{
             display: "flex",
